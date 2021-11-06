@@ -6,9 +6,9 @@ export default `
     <variable id="7J|c+=tT495^ch?D]%#e">arguments</variable>
     <variable id="+@B4vb]CdaQAcV3iYZ3L">member_level</variable>
     <variable id="P:v1*(tsIf8zdty}_SMF">commandwithprefix</variable>
-    <variable id="vk8drNL`f;O0)H0y*u{(">command</variable>
+    <variable id="vk8drNL\`f;O0)H0y*u{(">command</variable>
   </variables>
-  <block type="s4d_login" id="|rEc6MK@B`#CAd.0nrou" x="0" y="0">
+  <block type="s4d_login" id="|rEc6MK@B\`#CAd.0nrou" x="0" y="0">
     <value name="TOKEN">
       <block type="text" id="#-0;+I4Z4Ja.7?i1tEC#">
         <field name="TEXT">Your bot token</field>
@@ -67,7 +67,7 @@ export default `
               </block>
             </value>
             <next>
-              <block type="variables_set" id="^`ZAnTvZB/C`!s|i4wW8">
+              <block type="variables_set" id="^\`ZAnTvZB/C\`!s|i4wW8">
                 <field name="VAR" id="+@B4vb]CdaQAcV3iYZ3L">member_level</field>
                 <value name="VALUE">
                   <block type="s4d_get_data" id="h5b5dBE76^+Si[[@nzpR">
@@ -75,10 +75,10 @@ export default `
                       <shadow type="text">
                         <field name="TEXT">hello</field>
                       </shadow>
-                      <block type="text_join" id="|w0zLKo6a!VjZ[`h]ie1">
+                      <block type="text_join" id="|w0zLKo6a!VjZ[\`h]ie1">
                         <mutation items="2"></mutation>
                         <value name="ADD0">
-                          <block type="text" id="/_`/W`B=E:hKeVdrB0[5">
+                          <block type="text" id="/_\`/W\`B=E:hKeVdrB0[5">
                             <field name="TEXT">level-</field>
                           </block>
                         </value>
@@ -133,7 +133,7 @@ export default `
                       </block>
                     </statement>
                     <next>
-                      <block type="s4d_set_data" id="`7WbsnzyzwNl%gCO%9J9">
+                      <block type="s4d_set_data" id="\`7WbsnzyzwNl%gCO%9J9">
                         <value name="KEY">
                           <shadow type="text" id="Q.iRfNq!Jgox/.hB5Bs}">
                             <field name="TEXT">hello</field>
@@ -153,13 +153,13 @@ export default `
                           </block>
                         </value>
                         <value name="VALUE">
-                          <shadow type="text" id=":6^F`uO_USAFvH*$p9S~">
+                          <shadow type="text" id=":6^F\`uO_USAFvH*$p9S~">
                             <field name="TEXT">world</field>
                           </shadow>
                           <block type="math_arithmetic" id="wK29a{2jG2kU-?0hFhqR">
                             <field name="OP">ADD</field>
                             <value name="A">
-                              <shadow type="math_number" id="GM/dp{=o8js[D}i09`b^">
+                              <shadow type="math_number" id="GM/dp{=o8js[D}i09\`b^">
                                 <field name="NUM">1</field>
                               </shadow>
                               <block type="variables_get" id="ONqeqk89!f=j}!*L7;PL">
@@ -167,7 +167,7 @@ export default `
                               </block>
                             </value>
                             <value name="B">
-                              <shadow type="math_number" id=".K2[!`fX!l9vw!p51c!N">
+                              <shadow type="math_number" id=".K2[!\`fX!l9vw!p51c!N">
                                 <field name="NUM">1</field>
                               </shadow>
                             </value>
@@ -200,7 +200,7 @@ export default `
                                   <block type="logic_compare" id="2bDZYW1aw[iAcj6jy2o*">
                                     <field name="OP">GT</field>
                                     <value name="A">
-                                      <block type="variables_get" id="R3qfLFppQKY36e!(k`uh">
+                                      <block type="variables_get" id="R3qfLFppQKY36e!(k\`uh">
                                         <field name="VAR" id="M[vaD@JoJPb/1tEa6?p~">member_xp</field>
                                       </block>
                                     </value>
@@ -220,7 +220,7 @@ export default `
                                       <block type="text_join" id="?v8Tcgt2D0^]*|Ut8V3R">
                                         <mutation items="2"></mutation>
                                         <value name="ADD0">
-                                          <block type="text" id="QD{|`I9BudTR]{`]6_hF">
+                                          <block type="text" id="QD{|\`I9BudTR]{\`]6_hF">
                                             <field name="TEXT">xp-</field>
                                           </block>
                                         </value>
@@ -232,7 +232,7 @@ export default `
                                       </block>
                                     </value>
                                     <value name="VALUE">
-                                      <shadow type="text" id="ZRY[8%^o=~2`,a6K0f]K">
+                                      <shadow type="text" id="ZRY[8%^o=~2\`,a6K0f]K">
                                         <field name="TEXT">world</field>
                                       </shadow>
                                       <block type="math_number" id="qYtAuuUr]:sbDwn..^G7">
@@ -240,12 +240,12 @@ export default `
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="s4d_set_data" id="(-b?AF=}h+7kqqm`x)@=">
+                                      <block type="s4d_set_data" id="(-b?AF=}h+7kqqm\`x)@=">
                                         <value name="KEY">
                                           <shadow type="text">
                                             <field name="TEXT">hello</field>
                                           </shadow>
-                                          <block type="text_join" id="`hFN7Yl,*qK`Fy/*uC}{">
+                                          <block type="text_join" id="\`hFN7Yl,*qK\`Fy/*uC}{">
                                             <mutation items="2"></mutation>
                                             <value name="ADD0">
                                               <block type="text" id="NIpT7$oFJOwy@/ga5s+#">
@@ -363,7 +363,7 @@ export default `
         <value name="IF0">
           <block type="logic_negate" id="n{sqgt=#Uug]c)Oix]9J">
             <value name="BOOL">
-              <block type="s4d_member_is_bot" id="{El?GV$Xy;/Sw4H@y`i5">
+              <block type="s4d_member_is_bot" id="{El?GV$Xy;/Sw4H@y\`i5">
                 <value name="MEMBER">
                   <block type="s4d_message_author" id="2Mf[whs#6!AcmU8MkcU+"></block>
                 </value>
@@ -375,7 +375,7 @@ export default `
           <block type="variables_set" id="mAPD15fzZn@g9-z=jbJl">
             <field name="VAR" id="7J|c+=tT495^ch?D]%#e">arguments</field>
             <value name="VALUE">
-              <block type="lists_split" id="yf`L5hJh!fm6[6qmVm0s">
+              <block type="lists_split" id="yf\`L5hJh!fm6[6qmVm0s">
                 <mutation mode="SPLIT"></mutation>
                 <field name="MODE">SPLIT</field>
                 <value name="INPUT">
@@ -383,7 +383,7 @@ export default `
                 </value>
                 <value name="DELIM">
                   <shadow type="text" id="EwE:iZPk/X4ga;nA3;E%">
-                    <field name="TEXT">,</field>
+                    <field name="TEXT"> </field>
                   </shadow>
                 </value>
               </block>
@@ -397,7 +397,7 @@ export default `
                     <field name="MODE">GET_REMOVE</field>
                     <field name="WHERE">FROM_START</field>
                     <value name="VALUE">
-                      <block type="variables_get" id="ZKe$FD=)3:N[#Do`sLL@">
+                      <block type="variables_get" id="ZKe$FD=)3:N[#Do\`sLL@">
                         <field name="VAR" id="7J|c+=tT495^ch?D]%#e">arguments</field>
                       </block>
                     </value>
@@ -409,7 +409,7 @@ export default `
                   </block>
                 </value>
                 <next>
-                  <block type="controls_if" id="*`P5_a9T6Gr|6..6x[j4">
+                  <block type="controls_if" id="*\`P5_a9T6Gr|6..6x[j4">
                     <value name="IF0">
                       <block type="s4d_starts_with" id="z=lM|(XZt.d7L5}kpQ}S">
                         <value name="STRING">
@@ -431,15 +431,15 @@ export default `
                       </block>
                     </value>
                     <statement name="DO0">
-                      <block type="variables_set" id="6iV:p%H0I?#Yu$M`=HZ{">
-                        <field name="VAR" id="vk8drNL`f;O0)H0y*u{(">command</field>
+                      <block type="variables_set" id="6iV:p%H0I?#Yu$M\`=HZ{">
+                        <field name="VAR" id="vk8drNL\`f;O0)H0y*u{(">command</field>
                         <value name="VALUE">
                           <block type="text_getSubstring" id="!H[w1wsSo~/@Wr;6^b#}">
                             <mutation at1="true" at2="false"></mutation>
                             <field name="WHERE1">FROM_START</field>
                             <field name="WHERE2">LAST</field>
                             <value name="STRING">
-                              <block type="variables_get" id="i241b$#,B9XLw`M[eZ0*">
+                              <block type="variables_get" id="i241b$#,B9XLw\`M[eZ0*">
                                 <field name="VAR" id="P:v1*(tsIf8zdty}_SMF">commandwithprefix</field>
                               </block>
                             </value>
@@ -462,7 +462,7 @@ export default `
                                   </block>
                                 </value>
                                 <value name="B">
-                                  <shadow type="math_number" id="2/aiys_[`k[#Z3KA53f{">
+                                  <shadow type="math_number" id="2/aiys_[\`k[#Z3KA53f{">
                                     <field name="NUM">1</field>
                                   </shadow>
                                 </value>
@@ -477,7 +477,7 @@ export default `
                                 <field name="OP">EQ</field>
                                 <value name="A">
                                   <block type="variables_get" id="0#QPzco9YU4bNx_6#A^?">
-                                    <field name="VAR" id="vk8drNL`f;O0)H0y*u{(">command</field>
+                                    <field name="VAR" id="vk8drNL\`f;O0)H0y*u{(">command</field>
                                   </block>
                                 </value>
                                 <value name="B">
@@ -495,21 +495,21 @@ export default `
                                   </block>
                                 </value>
                                 <value name="CHANNEL">
-                                  <block type="s4d_message_channel" id="Z9X4~0{8uHV~X`(nBZws"></block>
+                                  <block type="s4d_message_channel" id="Z9X4~0{8uHV~X\`(nBZws"></block>
                                 </value>
                                 <value name="GW">
                                   <block type="s4d_create_rankcard_then" id="L0pRn2FIzO_$8j:|KJ[o">
                                     <statement name="THEN">
                                       <block type="s4d_set_username" id="VSy*#Jv_9po!HaNB/(R,">
                                         <value name="STRING">
-                                          <block type="s4d_message_author_raw" id="[l:(dZKxM`mT7heVMX(J">
+                                          <block type="s4d_message_author_raw" id="[l:(dZKxM\`mT7heVMX(J">
                                             <field name="SEARCH_TYPE">NICKNAME</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="s4d_set_avatar" id="w/@@s~_h%+UZ`hV:l$I8">
+                                          <block type="s4d_set_avatar" id="w/@@s~_h%+UZ\`hV:l$I8">
                                             <value name="STRING">
-                                              <block type="s4d_member_icon" id="H`.P(xp|s):MhPQB]HX]">
+                                              <block type="s4d_member_icon" id="H\`.P(xp|s):MhPQB]HX]">
                                                 <value name="MEMBER">
                                                   <block type="s4d_message_author" id="]d|(I2JqAhx2$ErqNSR["></block>
                                                 </value>
