@@ -4,7 +4,7 @@
         <b-dropdown-item @click="load('command-parsing')">{{ $t('examples.command_parsing') }}</b-dropdown-item>
         <b-dropdown-item @click="load('leveling')">{{ $t('examples.leveling') }}</b-dropdown-item>
         <b-dropdown-item @click="load('music')">{{ $t('examples.music') }}</b-dropdown-item>
-        <b-dropdown-item @click="load('frostlevel')">{{ $t('examples.music') }}</b-dropdown-item>
+        <b-dropdown-item @click="load('frostlevel')">{{ $t('examples.frostlevel') }}</b-dropdown-item>
     </b-nav-item-dropdown>
 </template>
 
@@ -15,7 +15,7 @@ import PingPongExample from "../../examples/ping-pong";
 import CommandParsingExample from "../../examples/command-parsing";
 import LevelingExample from "../../examples/leveling";
 import MusicExample from "../../examples/music";
-import MusicExample from "../../examples/frostlevel";
+import FrostLevelExample from "../../examples/frostlevel";
 
 const examples = {
     "ping-pong": PingPongExample,
