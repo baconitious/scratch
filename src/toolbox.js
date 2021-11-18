@@ -472,7 +472,7 @@ export default (Blockly, value) => {
 					    <block type="about_user"/>
 					  </category>
 					  
-<category name="Mxson" colour="#AAE941">
+<category name="Mxson" colour="#7373FF">
 
 <category name="Ticketing System" colour="#5b80a5">
 	<label text="You can also type local" web-class="boldtext"></label>
