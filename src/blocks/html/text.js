@@ -1,15 +1,15 @@
 import Blockly from "blockly/core";
 
-const blockName = "s4d_delete_data";
+const blockName = "s4h_text";
 
 const blockData = {
-    "message0": "%{BKY_DELETE_DATA}",
+    "message0": "text %1",
     "args0": [
         {
             "type": "input_value",
-            "name": "KEY",
+            "name": "TEXT",
             "check": [ "String", "Number" ]
-        }
+        },
     ],
     "previousStatement": null,
     "nextStatement": null,
@@ -24,6 +24,8 @@ Blockly.Blocks[blockName] = {
 };
 
 Blockly.JavaScript[blockName] = function(block) {
-    const key = Blockly.JavaScript.valueToCode(block, "KEY", Blockly.JavaScript.ORDER_ATOMIC);
-    return `s4d.database.delete(String(${key}));\n`;
+    const text2 = Blockly.JavaScript.valueToCode(block, "TEXT", Blockly.JavaScript.ORDER_ATOMIC);
+    const text1 = text2.replace("'",'')
+    const text = text1.replace("'",'')
+    return `${text}\n`;
 };
